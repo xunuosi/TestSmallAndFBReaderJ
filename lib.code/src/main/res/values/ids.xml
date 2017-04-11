@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="afc_selector_button_sort_as" type="id"/>
+    <item name="afc_selector_button_sort_de" type="id"/>
+    <item name="afc_selector_button_folders_view_grid" type="id"/>
+    <item name="afc_selector_button_folders_view_list" type="id"/>
+</resources>

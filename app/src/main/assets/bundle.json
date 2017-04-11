@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.example.appmain"
+    },
+    {
+      "uri": "test",
+      "type":"app",
+      "pkg": "com.test.xns.testrxjava"
+    },
+    {
+      "uri": "reader",
+      "type":"app",
+      "pkg": "org.geometerplus.zlibrary.ui.android"
+    },
+    {
+      "uri": "lib.style",
+      "pkg": "com.example.libstyle"
+    },
+    {
+      "uri": "lib.SuperToasts",
+      "pkg": "com.github.johnpersano.supertoasts"
+    },
+    {
+      "uri": "lib.ambilWarna",
+      "pkg": "yuku.ambilwarna"
+    },
+    {
+      "uri": "lib.code",
+      "pkg": "group.pals.android.lib.ui.filechooser"
+    },
+    {
+      "uri": "lib.dragsortlistview",
+      "pkg": "com.mobeta.android.dslv"
+    }
+  ]
+}

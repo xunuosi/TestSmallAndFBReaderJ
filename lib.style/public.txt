@@ -1,0 +1,4 @@
+int style AppTheme 0x79020000
+int color colorAccent 0x79030000
+int color colorPrimary 0x79030001
+int color colorPrimaryDark 0x79030002

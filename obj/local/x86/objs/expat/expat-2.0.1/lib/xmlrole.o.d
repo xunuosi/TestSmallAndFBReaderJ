@@ -1,0 +1,20 @@
+D:/Code/Andoroid/MySmall/obj/local/x86/objs/expat/expat-2.0.1/lib/xmlrole.o: \
+  D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/xmlrole.c \
+  D:/Code/Andoroid/MySmall/jni/expat-2.0.1\expat_config.h \
+  D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/expat_external.h \
+  D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/internal.h \
+  D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/xmlrole.h \
+  D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/xmltok.h \
+  D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/ascii.h
+
+D:/Code/Andoroid/MySmall/jni/expat-2.0.1\expat_config.h:
+
+D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/expat_external.h:
+
+D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/internal.h:
+
+D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/xmlrole.h:
+
+D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/xmltok.h:
+
+D:/Code/Andoroid/MySmall/jni/expat-2.0.1/lib/ascii.h:
