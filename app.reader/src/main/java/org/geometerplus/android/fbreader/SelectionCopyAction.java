@@ -22,6 +22,8 @@ package org.geometerplus.android.fbreader;
 import android.app.Application;
 import android.text.ClipboardManager;
 
+import com.paragon.dictionary.fbreader.application.StubApplication;
+
 import org.geometerplus.zlibrary.core.resources.ZLResource;
 
 import org.geometerplus.fbreader.fbreader.FBReaderApp;
@@ -47,7 +49,8 @@ public class SelectionCopyAction extends FBAndroidAction {
 		fbview.clearSelection();
 
 		final ClipboardManager clipboard =
-			(ClipboardManager)BaseActivity.getApplication().getSystemService(Application.CLIPBOARD_SERVICE);
+//			(ClipboardManager)BaseActivity.getApplication().getSystemService(Application.CLIPBOARD_SERVICE);
+				(ClipboardManager)StubApplication.getInstance().getApplication().getSystemService(Application.CLIPBOARD_SERVICE);
 		clipboard.setText(text);
 		UIMessageUtil.showMessageText(
 			BaseActivity,

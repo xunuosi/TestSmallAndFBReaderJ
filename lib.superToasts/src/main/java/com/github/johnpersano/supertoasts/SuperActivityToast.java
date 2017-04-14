@@ -161,14 +161,15 @@ public class SuperActivityToast {
      * @param activity {@link android.app.Activity}
      * @param type     {@link com.github.johnpersano.supertoasts.SuperToast.Type}
      */
-    public SuperActivityToast(Activity activity, Type type) {
+    public
+    SuperActivityToast(Activity activity, Type type) {
 
         if (activity == null) {
 
             throw new IllegalArgumentException(TAG + ERROR_ACTIVITYNULL);
 
         }
-
+        Log.e("xns", "Activity:" + activity + "Type" + type.toString());
         this.mActivity = activity;
         this.mType = type;
 

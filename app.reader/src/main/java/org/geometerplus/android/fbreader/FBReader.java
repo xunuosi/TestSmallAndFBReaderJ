@@ -254,7 +254,7 @@ public final class FBReader extends FBReaderMainActivity implements ZLApplicatio
 		});
 
 		final ZLAndroidLibrary zlibrary = getZLibrary();
-		Log.e("xns", "FBReader zlibrary:" + zlibrary);
+
 		myShowStatusBarFlag = zlibrary.ShowStatusBarOption.getValue();
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -267,7 +267,7 @@ public final class FBReader extends FBReaderMainActivity implements ZLApplicatio
 		if (myFBReaderApp == null) {
 			myFBReaderApp = new FBReaderApp(Paths.systemInfo(this), new BookCollectionShadow());
 		}
-		Log.e("xns", "FBReader_myFBReaderApp:" + myFBReaderApp);
+
 		getCollection().bindToService(this, null);
 		myBook = null;
 

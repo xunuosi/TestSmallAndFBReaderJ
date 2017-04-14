@@ -26,6 +26,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
+import com.paragon.dictionary.fbreader.application.StubApplication;
+
 import org.geometerplus.zlibrary.core.network.ZLNetworkContext;
 import org.geometerplus.zlibrary.core.network.ZLNetworkException;
 import org.geometerplus.zlibrary.core.options.Config;
@@ -68,7 +70,8 @@ public abstract class Util implements UserRegistrationConstants {
 					public void run() {
 						final NetworkLibrary library = networkLibrary(activity);
 						if (SQLiteNetworkDatabase.Instance() == null) {
-							new SQLiteNetworkDatabase(activity.getApplication(), library);
+//							new SQLiteNetworkDatabase(activity.getApplication(), library);
+							new SQLiteNetworkDatabase(StubApplication.getInstance().getApplication(), library);
 						}
 
 						if (!library.isInitialized()) {

@@ -21,11 +21,13 @@ package org.geometerplus.android.fbreader;
 
 import android.content.Intent;
 import android.os.Parcelable;
+import android.util.Log;
 import android.view.View;
 
 import com.github.johnpersano.supertoasts.SuperActivityToast;
 import com.github.johnpersano.supertoasts.SuperToast;
 import com.github.johnpersano.supertoasts.util.OnClickWrapper;
+import com.paragon.dictionary.fbreader.activity.BookMarkActivity;
 
 import org.geometerplus.zlibrary.core.resources.ZLResource;
 
@@ -55,6 +57,7 @@ public class SelectionBookmarkAction extends FBAndroidAction {
 
 		final SuperActivityToast toast =
 			new SuperActivityToast(BaseActivity, SuperToast.Type.BUTTON);
+		Log.e("xns", "SelectionBookmarkAction_SuperActivityToast:" + toast);
 		toast.setText(bookmark.getText());
 		toast.setDuration(SuperToast.Duration.EXTRA_LONG);
 		toast.setButtonIcon(
@@ -71,5 +74,9 @@ public class SelectionBookmarkAction extends FBAndroidAction {
 			}
 		}));
 		BaseActivity.showToast(toast);
+
+//		Intent intent = new Intent(BaseActivity, BookMarkActivity.class);
+//		intent.putExtra("bookmark", bookmark.getText());
+//		OrientationUtil.startActivity(BaseActivity, intent);
 	}
 }

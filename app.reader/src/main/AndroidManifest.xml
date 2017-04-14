@@ -634,5 +634,8 @@
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
             android:exported="false"
             android:theme="@style/FBReader.Dialog" />
+        <!-- my activity-->
+        <activity android:name="com.paragon.dictionary.fbreader.activity.BookMarkActivity"
+                  android:theme="@style/FBReader.Activity"/>
     </application>
 </manifest>
